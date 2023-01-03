@@ -1,7 +1,7 @@
 # three-template
 A simple template for use modules with three.js (JavaScript template)
 
-You can try it here: (stackblocks.netlify.app)
+Try by yourself here -> https://stackblocks.netlify.app/
 
 ## how to use?
 - Download this repository

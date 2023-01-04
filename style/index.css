@@ -5,6 +5,7 @@
 
 body {
 	background-color: darkslategray;
+	width: 100vw;
 }
 
 #game-container {
@@ -15,6 +16,10 @@ body {
 /* Fix mozilla error */
 canvas {
 	display: block;
+}
+
+.title{
+	overflow: hidden;
 }
 
 #points, #game-over, #button-start {
@@ -58,4 +63,10 @@ canvas {
 
 .no-select {
 	user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+	#button-start button, .title {
+	  font-size: 30px;
+	}
 }

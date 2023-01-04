@@ -23,6 +23,7 @@ export class App {
 		)
 		this.camera.position.set(10, 10 + this.camera_y, 10);
 		this.camera.lookAt(0, this.camera_y, 0);
+		this.camera.zoom = .8;
 
 		// this.control = new OrbitControls(this.camera, this.container);
 
